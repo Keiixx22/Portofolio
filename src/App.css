@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-butterfly-50: #f2f2fb;
+  --color-butterfly-100: #e7e8f8;
+  --color-butterfly-200: #d3d4f2;
+  --color-butterfly-300: #b8b8e9;
+  --color-butterfly-400: #a19bde;
+  --color-butterfly-500: #8f82d2;
+  --color-butterfly-600: #7e69c2;
+  --color-butterfly-700: #6d58aa;
+  --color-butterfly-800: #604f95;
+  --color-butterfly-900: #4a406f;
+  --color-butterfly-950: #2c2541;
+  --color-premium-black: #100E09;
+
+  --font-tally: 'Tally', monospace;
+  --font-syne: 'Syne', monospace;
+}
+
+@font-face {
+  font-family: Tally;
+  src: url('./assets/fonts/Tally-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Tally;
+  src: url('./assets/fonts/Tally-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Tally;
+  src: url('./assets/fonts/Tally-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Syne;
+  src: url('./assets/fonts/Syne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM;
+  src: url('./assets/fonts/Syne-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+

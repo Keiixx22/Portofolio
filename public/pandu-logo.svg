@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b5bd6"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <!-- solid white background (removed at runtime by the 3D component) -->
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  <!-- hexagon badge with rounded corners -->
+  <polygon points="512,92 875.7,302 875.7,722 512,932 148.3,722 148.3,302"
+           fill="url(#badge)" stroke="url(#badge)" stroke-width="60" stroke-linejoin="round"/>
+  <!-- monogram P -->
+  <g transform="translate(-28,0)">
+    <path fill="#ffffff" fill-rule="evenodd"
+          d="M380 300 H560 A140 140 0 0 1 560 580 H470 V724 H380 Z
+             M470 380 H555 A60 60 0 0 1 555 500 H470 Z"/>
+    <!-- accent dot, like a period / cursor -->
+    <circle cx="595" cy="680" r="38" fill="#22d3ee"/>
+  </g>
+</svg>
